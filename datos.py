@@ -10,6 +10,7 @@
 #=============================================================================
 
 import csv
+import validaciones
 
 COLUMNAS = ["nombre", "poblacion", "superficie", "continente"]
 
@@ -93,8 +94,30 @@ def mostrar_paises(lista_paises):
 
 
 def agregar_pais(paises):
-    pass
+    #opcion 1 cargar pais, valida cada dato
+    nombre = validaciones.pedir_texto_no_vacio("Nombre del país: ")
+    poblacion = validaciones.pedir_entero("Población: ")
+    superficie = validaciones.pedir_entero("Superficie (km²): ")
+    continente = validaciones.pedir_texto_no_vacio("Continente: ")
+    
+    #arma el dict
+    nuevo_pais = {
+        "nombre": nombre,
+        "poblacion": poblacion,
+        "superficie": superficie,
+        "continente": continente,
+    }
+    #lo agrega a la lista
+    paises.append(nuevo_pais)
+    print(f"País '{nombre}' agregado correctamente.")
 
 
 def actualizar_pais(paises):
-    pass
+    nombre = input("¿Qué país querés actualizar? ")
+    for pais in paises:
+        if pais["nombre"].lower() == nombre.lower():
+            pais["poblacion"] = validaciones.pedir_entero("Nueva población: ")
+            pais["superficie"] = validaciones.pedir_entero("Nueva superficie (km²): ")
+            print(f"País '{pais['nombre']}' actualizado.")
+            return
+    print(f"No se encontró el país '{nombre}'.")
