@@ -5,7 +5,7 @@ Tecnicatura Universitaria en Programación a Distancia (TUPAD) — UTN
 
 ## Integrantes
 - Maira Aguirre Gusmán - Comisión 14
-- Matias Burgos - Comisión 
+- Matias Burgos - Comisión 20
 
 
 ## Descripción
