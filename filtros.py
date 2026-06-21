@@ -1,4 +1,10 @@
-# filtros.py - filtros por continente, rango de población y rango de superficie
+# ============================================================================
+# Módulo de filtros
+
+# Funciones para filtrar países de acuerdo a sus características.
+# Permite filtrar por: continente y rangos de población o superficie.
+# Solamente acepta rangos válidos no negativos.
+# ============================================================================
 
 # >> Importar funciones necesarias
 
