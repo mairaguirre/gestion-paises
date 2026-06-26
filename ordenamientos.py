@@ -72,9 +72,9 @@ def pedir_orden():
     opcion = int(opcion)
 
     if opcion == 1:
-        return True
-    else:
         return False
+    else:
+        return True
 
 
 # >> Menú y ejecución
