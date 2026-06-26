@@ -105,35 +105,3 @@ def menu_filtros(paises):
         # Si existen coincidencias, se muestran
         else:
             mostrar_paises(resultados)
-
-    return resultados
-
-
-# Menú y ejecución
-
-
-def menu_filtros(paises):
-    while True:
-        print("""
------ MENÚ DE FILTROS -----
-1. Filtrar por continente
-2. Filtrar por rango de población
-3. Filtrar por rango de superficie
-4. Volver al menú principal
-""")
-
-        opcion = pedir_opcion("Elija una opción: ", ["1", "2", "3", "4"])
-
-        if opcion == 1:
-            resultados = filtrar_por_continente(paises)
-        elif opcion == 2:
-            resultados = filtrar_por_rango_poblacion(paises)
-        elif opcion == 3:
-            resultados = filtrar_por_rango_superficie(paises)
-        else:
-            break
-
-        if len(resultados) == 0:
-            print("\nNo se encontraron países con el filtro elegido.")
-        else:
-            mostrar_paises(resultados)
