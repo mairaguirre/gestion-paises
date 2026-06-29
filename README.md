@@ -25,6 +25,10 @@ ordenarlos y generar estadísticas.
 - `estadisticas.py` — cálculo de estadisticas
 - `paises.csv` — dataset base
 
+## Diagrama de flujo general del proyecto
+
+![Diagrama de flujo general](diagrama_flujo_final.png)
+
 ## Instrucciones de uso
 
 ### Requisitos
@@ -78,5 +82,6 @@ Se listan únicamente los países que cumplen con el criterio seleccionado.
 El programa calcula y muestra distintos indicadores del dataset.
 
 ## Enlaces
-- Video explicativo:
-- Documentación en PDF: archivo en este repositorio
+- Documentación en PDF: [Documento PDF](TPI_Programacion1_MairaAguirreGusman_MatiasBurgos.pdf)
+- Video explicativo: [![Video explicativo TPI](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=uJnZkPtHoeY)
+
