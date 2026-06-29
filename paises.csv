@@ -1,21 +1,21 @@
 nombre,poblacion,superficie,continente
-Argentina,46234830,2780400,América
-Brasil,215313498,8515767,América
-Estados Unidos,333287557,9833520,América
-México,127504125,1964375,América
-Canadá,38929902,9984670,América
-Japón,125124989,377975,Asia
+Argentina,46234830,2780400,America
+Brasil,215313498,8515767,America
+Estados Unidos,333287557,9833520,America
+Mexico,127504125,1964375,America
+Canada,38929902,9984670,America
+Japon,125124989,377975,Asia
 China,1412175000,9596961,Asia
 India,1417173173,3287263,Asia
 Indonesia,275501339,1904569,Asia
 Corea del Sur,51628117,100210,Asia
 Alemania,83797985,357022,Europa
 Francia,67971311,551695,Europa
-España,47778340,505992,Europa
+Espana,47778340,505992,Europa
 Italia,58940425,301340,Europa
 Reino Unido,66971395,242495,Europa
-Nigeria,218541212,923768,África
-Egipto,110990103,1002450,África
-Sudáfrica,59893885,1221037,África
-Australia,26177413,7692024,Oceanía
-Nueva Zelanda,5124100,270467,Oceanía
+Nigeria,218541212,923768,Africa
+Egipto,110990103,1002450,Africa
+Sudafrica,59893885,1221037,Africa
+Australia,26177413,7692024,Oceania
+Nueva Zelanda,5124100,270467,Oceania
